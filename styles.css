@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#video-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+video {
+    width: 45%;
+    border: 1px solid black;
+}
